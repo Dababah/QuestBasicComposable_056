@@ -23,8 +23,11 @@ fun TataLetakColumn(modifier: Modifier = Modifier) {
             .background(Color.LightGray)
     ) {
         Text(text = "Komponen1")
+        Spacer(modifier = Modifier.height(8.dp))
         Text(text = "Komponen2")
+        Spacer(modifier = Modifier.height(8.dp))
         Text(text = "Komponen3")
+        Spacer(modifier = Modifier.height(8.dp))
         Text(text = "Komponen4")
     }
 }
@@ -36,9 +39,13 @@ fun TataLetakRow(modifier: Modifier = Modifier) {
         horizontalArrangement = Arrangement.SpaceEvenly
     ) {
         Text(text = "Komponen1")
+        Spacer(modifier = Modifier.height(8.dp))
         Text(text = "Komponen2")
+        Spacer(modifier = Modifier.height(8.dp))
         Text(text = "Komponen3")
+        Spacer(modifier = Modifier.height(8.dp))
         Text(text = "Komponen4")
+
     }
 }
 
