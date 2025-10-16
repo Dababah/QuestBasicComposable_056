@@ -48,6 +48,7 @@ fun TataLetakBox(modifier: Modifier = Modifier) {
         modifier = modifier
             .fillMaxWidth()
             .height(200.dp)
+            .padding(10.dp)
             .background(Color.LightGray),
         contentAlignment = Alignment.Center
     ) {
